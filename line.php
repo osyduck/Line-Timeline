@@ -1,4 +1,8 @@
 <?php
+####INI COPYRIGHT JANGAN DIHAPUS!####
+####MADE WITH <3 BY JANU####
+
+
 require("function.php");
 
 $cookie   = 'cookiesmu';
