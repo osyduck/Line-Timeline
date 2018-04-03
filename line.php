@@ -6,7 +6,7 @@
 require("function.php");
 
 $cookie   = 'cookiesmu';
-$header = headernya($cookie);
+$header   = headernya($cookie);
 $timeline = getTimeline($header);
 
 $limit    = 10; //max 10 post
