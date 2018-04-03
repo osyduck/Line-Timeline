@@ -1,7 +1,10 @@
 <?php
 require("function.php");
-$timeline = getTimeline();
+
 $cookie   = 'cookiesmu';
+$header = headernya($cookie);
+$timeline = getTimeline($header);
+
 $limit    = 10; //max 10 post
 $react    = 0; // 1. love 2. haha 3. sip 4. terharu 5. kaget 6. cry 0. random
 
