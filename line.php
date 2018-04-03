@@ -1,5 +1,5 @@
 <?php
-
+require("function.php");
 $timeline = getTimeline();
 $cookie   = 'cookiesmu';
 $limit    = 10; //max 10 post
